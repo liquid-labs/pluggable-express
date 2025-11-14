@@ -51,7 +51,6 @@
     "@liquid-labs/http-smart-response": "^1.0.0-alpha.6",
     "@liquid-labs/liq-handlers-lib": "^1.0.0-alpha.15",
     "@liquid-labs/npm-toolkit": "^1.0.0-alpha.19",
-    "@liquid-labs/question-and-answer": "^1.0.0-alpha.14",
     "@liquid-labs/semver-plus": "^1.0.0-alpha.11",
     "@liquid-labs/shell-toolkit": "^1.0.0-alpha.10",
     "express": "^5.0.0-beta.1",
