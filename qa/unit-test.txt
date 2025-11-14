@@ -1,0 +1,73 @@
+Test git rev: f1cc5087d80ba79f77db0045283834f2a5c54534
+PASS test/app.test.js
+PASS handlers/server/test/next-commands.test.js
+PASS handlers/server/test/version.test.js
+PASS handlers/server/test/api.test.js
+PASS handlers/server/plugins/_lib/test/error-utils.test.js
+PASS handlers/server/plugins/_lib/test/install-plugins-errors.test.js
+PASS handlers/server/plugins/_lib/test/install-plugins-basic.test.js
+PASS lib/test/find-own-home.test.js
+PASS handlers/server/plugins/_lib/test/install-plugins-keyword.test.js
+PASS handlers/server/plugins/test/details.test.js
+PASS handlers/server/plugins/test/add.test.js
+PASS handlers/server/plugins/_lib/test/install-plugins-data.test.js
+PASS handlers/server/plugins/test/remove.test.js
+PASS handlers/server/plugins/test/list.test.js
+PASS handlers/server/_lib/test/options-tokenizer.test.js
+----------------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
+File                              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                          
+----------------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
+All files                         |    68.4 |    54.62 |   57.86 |   69.53 |                                                                            
+ src                              |   48.48 |    32.69 |   14.28 |   49.21 |                                                                            
+  app.js                          |   56.63 |    35.41 |      20 |   57.79 | 53,72,103,109-110,149-167,171-201,209,215-217,223-224,230-239              
+  server.mjs                      |       0 |        0 |       0 |       0 | 1-40                                                                       
+ src/handlers                     |      70 |      100 |      50 |   66.66 |                                                                            
+  heartbeat.mjs                   |      70 |      100 |      50 |   66.66 | 11-13                                                                      
+ src/handlers/help                |     100 |      100 |     100 |     100 |                                                                            
+  help.mjs                        |     100 |      100 |     100 |     100 |                                                                            
+ src/handlers/help/lib            |   23.93 |        0 |   14.28 |   23.14 |                                                                            
+  formatter-md.mjs                |   12.12 |        0 |       0 |    12.9 | 4-16,20-55                                                                 
+  formatter-terminal.mjs          |   11.42 |        0 |       0 |   11.76 | 3-15,20-57                                                                 
+  formatter-text.mjs              |   13.33 |        0 |       0 |   13.79 | 5-17,21-51                                                                 
+  print-path.mjs                  |      50 |        0 |       0 |     100 | 1                                                                          
+  send-help.mjs                   |   93.33 |      100 |      75 |    92.3 | 15                                                                         
+ src/handlers/server              |   75.36 |    64.06 |   84.61 |   78.22 |                                                                            
+  api.mjs                         |     100 |      100 |     100 |     100 |                                                                            
+  next-commands.mjs               |   73.11 |     61.4 |     100 |   78.57 | 70-86,96-102,161,166                                                       
+  reload.mjs                      |   77.77 |      100 |      50 |      75 | 12-14                                                                      
+  stop.mjs                        |      50 |        0 |      50 |   46.15 | 11-21                                                                      
+  version.js                      |     100 |      100 |     100 |     100 |                                                                            
+ src/handlers/server/_lib         |   95.34 |       90 |     100 |   97.22 |                                                                            
+  next-options.mjs                |   94.44 |    89.09 |     100 |   96.55 | 65,107                                                                     
+  options-tokenizer.mjs           |     100 |      100 |     100 |     100 |                                                                            
+ src/handlers/server/errors       |   39.43 |        0 |      25 |   40.32 |                                                                            
+  detail.mjs                      |   26.08 |        0 |   22.22 |   27.27 | 15-39,43-63,70,75-80                                                       
+  list.mjs                        |      64 |      100 |   27.27 |   72.22 | 19,22,27-30                                                                
+ src/handlers/server/plugins      |      85 |    30.76 |   75.75 |    86.4 |                                                                            
+  add.mjs                         |     100 |      100 |     100 |     100 |                                                                            
+  details.mjs                     |     100 |      100 |     100 |     100 |                                                                            
+  list.mjs                        |   63.04 |      7.4 |      50 |   65.78 | 36-50,54,70,87                                                             
+  remove.mjs                      |   97.05 |       60 |     100 |   96.66 | 42                                                                         
+ src/handlers/server/plugins/_lib |   86.11 |    89.09 |   78.57 |   86.95 |                                                                            
+  add-plugins.mjs                 |       0 |        0 |       0 |       0 | 2-29                                                                       
+  error-utils.mjs                 |     100 |      100 |     100 |     100 |                                                                            
+  install-plugins.mjs             |     100 |      100 |     100 |     100 |                                                                            
+  list-plugins.mjs                |   66.66 |        0 |       0 |   66.66 | 9                                                                          
+ src/lib                          |   77.41 |    64.55 |   64.44 |   79.55 |                                                                            
+  configurables.js                |   66.66 |      100 |       0 |     100 |                                                                            
+  find-own-home.mjs               |     100 |      100 |     100 |     100 |                                                                            
+  get-server-settings.mjs         |     100 |       90 |     100 |     100 | 11                                                                         
+  json-helpers.mjs                |       0 |        0 |       0 |       0 | 1-24                                                                       
+  load-plugins.js                 |   93.67 |    81.66 |     100 |   94.73 | 17,23,125-126                                                              
+  path-resolvers.js               |       0 |      100 |       0 |       0 | 1-8                                                                        
+  path-to-re.mjs                  |   94.11 |       80 |     100 |   94.11 | 17                                                                         
+  path-var-registry.mjs           |   91.66 |        0 |     100 |   91.66 | 30                                                                         
+  register-handlers.js            |    73.2 |    53.57 |      60 |   75.35 | 18-25,39,46-47,65,78-83,86,130,151-153,157,160,205-217,232,235,253-254,264 
+  reporter.js                     |   61.11 |     37.5 |   42.85 |    62.5 | 27,37-47                                                                   
+----------------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
+
+Test Suites: 15 passed, 15 total
+Tests:       173 passed, 173 total
+Snapshots:   0 total
+Time:        1.375 s, estimated 2 s
+Ran all test suites.
