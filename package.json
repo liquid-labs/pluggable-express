@@ -1,6 +1,6 @@
 {
   "name": "@liquid-labs/pluggable-express",
-  "version": "1.0.0-alpha.55",
+  "version": "1.0.0-alpha.56",
   "description": "An Express based web server with ",
   "main": "dist/pluggable-express.js",
   "scripts": {
